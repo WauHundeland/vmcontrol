@@ -1,5 +1,14 @@
 # VMControl - Control your VirtualBox VMs from a web browser
 
+## Requirements
+  - Microsoft Windows XP or newer
+  - Oracle VM VirtualBox
+  - VBoxManage (included in VirtualBox)
+
+**Important**: Added VMs must have a PIIX4 IDE controller with a floppy disk slot!
+![image](https://user-images.githubusercontent.com/66002359/140609107-c3a4462b-bfb6-485a-819d-b354f00c8735.png)
+
+
 ## Setup
 
 Step 1: Preparing the environment

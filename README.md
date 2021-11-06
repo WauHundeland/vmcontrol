@@ -11,7 +11,7 @@ Added VMs must have a PIIX4 IDE controller with a optical disk slot!
 
 ![image](https://user-images.githubusercontent.com/66002359/140609107-c3a4462b-bfb6-485a-819d-b354f00c8735.png)
 
-Aditionally, added VMS must be created with the user that runs the web server. 
+Aditionally, added VMS must be created with the user that runs the web server. To enable "Instant Connect" batch commands, the VM must have an RDP server. 
 
 
 

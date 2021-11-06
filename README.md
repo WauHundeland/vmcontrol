@@ -4,6 +4,7 @@
   - Microsoft Windows XP or newer
   - Oracle VM VirtualBox
   - VBoxManage (included in VirtualBox)
+  - PHP 7.3+
 
 **Important**: Added VMs must have a PIIX4 IDE controller with a floppy disk slot!
 

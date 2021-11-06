@@ -62,6 +62,7 @@ $ip = "123.456.789.0";
 ~~~
 
 Step 2: Adding VMs
+
 A user account system is used to assign virtual machines to individual users. The website asks you to create a user account or to log in. The user data is stored in the database table `users`. Create user accounts on the website and look up the associated IDs in the database. Now create an entry for the virtual machine in the database table `vm`. 
 ~~~sql
 INSERT INTO `vm` (`name`, `userid`) VALUES ('your VirtualBox VM name', 'your user id')

@@ -7,7 +7,7 @@
   - PHP 7.3+
 
 **Important**: 
-Added VMs must have a PIIX4 IDE controller with a optical disk slot!
+Added VMs must have a PIIX4 IDE named `IDE` controller with a optical disk slot!
 
 ![image](https://user-images.githubusercontent.com/66002359/140609107-c3a4462b-bfb6-485a-819d-b354f00c8735.png)
 

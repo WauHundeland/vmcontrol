@@ -98,6 +98,7 @@ if (!isset($_SESSION['userid'])) { // Überprüfe Login
                     }
                     move_uploaded_file($_FILES["isofile"]["tmp_name"], $isofolder . $roww["name"] . "\\" . rtrim($_FILES["isofile"]["name"], ".iso") . ".iso");
                     exec('"C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" storageattach "' . $roww["name"] . '" --storagectl IDE --type dvddrive --port 0 --device 0 --medium "' . $isofolder . $roww["name"] . "\\" . rtrim($_FILES["isofile"]["name"], ".iso") . ".iso" . '"', $stck);
+                    echo "Erfolgreich!"; 
                 }
             }
             ?>
